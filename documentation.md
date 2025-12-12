@@ -1,5 +1,7 @@
 # heading1  JavaScript Programming Fundamentals
 
+---
+
     In Javascript programming Fundamentals we were told to create a website that will give direct links to 5 elements though the homepage. Each element is used to convey different techniques.
 
     Element 1 is used to show the Demonstration of basic shapes, lighting, textures, shadows, and motion. 
@@ -19,6 +21,8 @@
 
 ## heading 2 Element 5
 
+---
+
     These notes focus on the element 5 section of the webpage. Element 5 features 4 different scenes which can be swithced between using the graphical user interface displayed on the screen. i used different things i learned from the other elements and implemented them into element 5. i done this by editing lighting adding in different meshes and changes textures to display different scenes.
 
     1. The first scene contains 3 shapes with different textures, 2 spheres one representing the sun and the other earth and a black plane that is beneath them
@@ -28,4 +32,5 @@
 
 ### heading 3 Extracting files
 
+---
     When referencing different assets within this code i made sure that the links between the ts files went to the correct assets. When exporting this scene as well as all other elements i had to make sure it was working within a seperate development folder and extracting it locally into its own folder which would originally be the "Dist" folder but i would rename it to the required element it was. these folders includes a index.html as well as the assets and coding for the scenes in order for them to work.
