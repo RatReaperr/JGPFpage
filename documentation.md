@@ -2,28 +2,27 @@
 
 ---
 
-    In Javascript programming Fundamentals we were told to create a website 
-    that will give direct links to 5 elements though the homepage. Each element is used to convey different techniques.
+    In Javascript programming Fundamentals we were tasked to develop a website 
+    that will give direct links to 5 elements though the homepage. The homepage is to be customised
+    by ourselves and showcases elements and webpage layouts.
 
-    Element 1 is used to show the Demonstration of basic shapes, 
+    Element 1 is used to show different techniques using basic shapes, 
     lighting, textures, shadows, and motion. 
 
-    Element 2 demonstrates use of a 3D environment placing a selection 
-    of individual and cloned textured meshes (utilising some mesh merging) 
-    within a 360-degree scene with background image, textured terrain using 
-    a height map, appropriate lighting, and constrained camera motion. 
+    Element 2 demonstrates the use of a 3D village enviroment which is done by placing single or multiple textured meshes and uses some merge-meshes and should be buily within a 360-degree scene with background image, a height map using textured terrain, appropriate lighting, and constrained camera motion for the user. 
 
-    Element 3 demostrates the a movable player mesh incorporating player functional animations.  
-    Interaction between player and other objects with a physics in applied. 
+    Element 3 demostrates the a movable player mesh incorporating player functional animations,  
+    as well as collisions between the player and objects. 
 
-    Element 4 is used to show a Graphic user interface featuring a menu system and transitions from 
-    menu to an interactive scene.  At least one GUI element should change in response to scene 
-    events. 
+    Element 4 is used to show a Graphic user interface should feature at least one GUI element that should change in response to scene events such as a button click. 
 
     Element 5 is used to demonstrate multiple scenes which can be switched 
     between using a gui or scene events. Each scene should incorporate techniques
     explored in the module and provides the most oppurtunity to display creativity 
     and the introduction of game like aspects.
+
+    each of these layouts are accessible through the navigation bar that appears on the website homepage.
+    on the home page there is information on certain things that are used such as babylon, bootstrap and javascript.
 
  ## Element 5
 
@@ -51,8 +50,14 @@
 
 ---
     When referencing different assets within this code i made sure that the links
-    between the ts files went to the correct assets. When exporting this scene as well 
-    as all other elements i had to make sure it was working within a seperate development
-    folder and extracting it locally into its own folder which would originally be the 
-    "Dist" folder but i would rename it to the required element it was. these folders
-    includes a index.html as well as the assets and coding for the scenes in order for them to work.
+    between the ts files went to the correct assets as if this was not the case there would
+    be errors when using npm run dev as there would be meshes without textures if the links 
+    weren't correct.       
+     When exporting this scene as well as all other elements i had
+    to make sure it was working within a seperate development
+    folder and extracting it locally into its own folder which
+    would originally be the "Dist" folder but i would rename it to the required element it was.
+    these folders includes a index.html as well as the assets and coding for the scenes in
+    order for them to work. When the elements were ready within their local folders 
+    i would copy them over into my JGPFpage folder for my website development 
+    and link them through the index.html page that was set up for my homepage
