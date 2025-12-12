@@ -1,4 +1,4 @@
-# heading1  JavaScript Programming Fundamentals
+# JavaScript Programming Fundamentals
 
 ---
 
@@ -25,7 +25,7 @@
     explored in the module and provides the most oppurtunity to display creativity 
     and the introduction of game like aspects.
 
-## heading 2 Element 5
+ ## Element 5
 
 ---
 
@@ -47,7 +47,7 @@
      a grassy surrounding as well as a skybox. i input capsules into this to showcase them
      as people in the village as well as dulling the lighting to create a darker scene.
 
-### heading 3 Extracting files
+## Extracting files
 
 ---
     When referencing different assets within this code i made sure that the links
